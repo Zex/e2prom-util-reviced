@@ -1,0 +1,4 @@
+
+proj_name=e2prom-util
+
+qmake-qt4 -project -o $proj_name.pro && qmake-qt4 $proj_name.pro && make 

@@ -1,0 +1,7 @@
+platform=AEOS_Intel
+version=debug
+LD_LIBRARY_PATH=build/$platform/$version
+
+build/$platform/$version/examples/user_data |xxd
+
+#xxd out.bin

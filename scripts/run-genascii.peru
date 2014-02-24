@@ -1,0 +1,97 @@
+#!/bin/bash
+
+platform=Native
+version=debug
+export LD_LIBRARY_PATH=build/$platform/$version
+export temp_to_bin=$LD_LIBRARY_PATH/temp2bin
+export ascii_to_bin=$LD_LIBRARY_PATH/ascii2bin
+export bin_to_ascii=$LD_LIBRARY_PATH/bin2ascii
+export dest_top_dir=stationen
+export dest_zip=pnp_stationen.zip
+export dest_zip_list=`echo $dest_zip|cut -d\. -f1`-list.txt
+
+export tempdir=ref/templates
+export output_dir=e2prom
+export dibr5_temp=$tempdir/dib-r5_eeprom.txt
+export fanu_temp=$tempdir/fanu_eeprom.txt
+export bscu_temp=$tempdir/bscu_eeprom.txt
+export bcb_temp=$tempdir/bcb_eeprom.txt
+export abu_temp=$tempdir/abu_eeprom.txt
+
+#export dibr5_bin=dib-r5_eeprom.bin
+#export fanu_bin=fanu_eeprom.bin
+#export bscu_bin=bscu_eeprom.bin
+#export bcb_bin=bcb_eeprom.bin
+#export abu_bin=abu_eeprom.bin
+#
+#export dibr5_txt=dib-r5_eeprom.txt
+#export fanu_txt=fanu_eeprom.txt
+#export bscu_txt=bscu_eeprom.txt
+#export bcb_txt=bcb_eeprom.txt
+#export abu_txt=abu_eeprom.txt
+
+export xtype_file=ref/xtype.ini
+
+for gen_each_bs in `ls ./scripts/peru/genascii.01` ;do
+
+	$gen_each_bs
+
+done
+
+find $dest_top_dir > $dest_zip_list
+
+if [ -f $dest_zip ] ;then rm -f $dest_zip;fi
+
+zip -r $dest_zip $dest_top_dir $dest_zip_list
+rm -rf $dest_zip_list $dest_top_dir
+
+echo "Created $dest_zip"
+#!/bin/bash
+
+platform=Native
+version=debug
+export LD_LIBRARY_PATH=build/$platform/$version
+export temp_to_bin=$LD_LIBRARY_PATH/temp2bin
+export ascii_to_bin=$LD_LIBRARY_PATH/ascii2bin
+export bin_to_ascii=$LD_LIBRARY_PATH/bin2ascii
+export dest_top_dir=stationen
+export dest_zip=pnp_stationen.zip
+export dest_zip_list=`echo $dest_zip|cut -d\. -f1`-list.txt
+
+export tempdir=ref/templates
+export output_dir=e2prom
+export dibr5_temp=$tempdir/dib-r5_eeprom.txt
+export fanu_temp=$tempdir/fanu_eeprom.txt
+export bscu_temp=$tempdir/bscu_eeprom.txt
+export bcb_temp=$tempdir/bcb_eeprom.txt
+export abu_temp=$tempdir/abu_eeprom.txt
+export temp_dir=e2prom
+#export dibr5_bin=dib-r5_eeprom.bin
+#export fanu_bin=fanu_eeprom.bin
+#export bscu_bin=bscu_eeprom.bin
+#export bcb_bin=bcb_eeprom.bin
+#export abu_bin=abu_eeprom.bin
+#
+#export dibr5_txt=dib-r5_eeprom.txt
+#export fanu_txt=fanu_eeprom.txt
+#export bscu_txt=bscu_eeprom.txt
+#export bcb_txt=bcb_eeprom.txt
+#export abu_txt=abu_eeprom.txt
+
+export xtype_file=ref/xtype.ini
+
+for gen_each_bs in `ls ./scripts/peru/genascii.*` ;do
+
+	$gen_each_bs
+
+done
+
+find $dest_top_dir > $dest_zip_list
+
+if [ -f $dest_zip ] ;then rm -f $dest_zip;fi
+
+zip -r $dest_zip $dest_top_dir $dest_zip_list
+rm -rf $dest_zip_list $dest_top_dir gmon.out
+rmdir $temp_dir
+
+echo "Created $dest_zip"

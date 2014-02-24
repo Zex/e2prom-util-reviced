@@ -1,0 +1,92 @@
+export bs=bs01-114
+
+export dibr5_pd=2013-11-22
+export dibr5_ti=00.00
+export dibr5_pi=01.00
+export dibr5_sn=200036
+
+export chu1_pi=01.00
+export chu1_sn=200098
+export chu1_pd=2013-11-22
+export chu1_ti=00.01
+
+export bcb1_sn=200129
+export bcb1_pd=2013-11-22
+export lps1_sn=200057
+export lps1_pd=2013-11-22
+export dpa1_sn=200111
+export dpa1_pd=2013-11-22
+
+export chu2_pi=01.00
+export chu2_sn=200113
+export chu2_pd=2013-11-22
+export chu2_ti=00.01
+
+export bcb2_sn=200093
+export bcb2_pd=2013-11-22
+export lps2_sn=200088
+export lps2_pd=2013-11-22
+export dpa2_sn=200056
+export dpa2_pd=2013-11-22
+
+export chu3_pi=01.00
+export chu3_sn=200111
+export chu3_pd=2013-11-22
+export chu3_ti=00.01
+
+export bcb3_sn=200139
+export bcb3_pd=2013-11-22
+export lps3_sn=200099
+export lps3_pd=2013-11-22
+export dpa3_sn=200124
+export dpa3_pd=2013-11-22
+
+export chu4_pi=01.00
+export chu4_sn=200116
+export chu4_pd=2013-11-22
+export chu4_ti=00.01
+
+export bcb4_sn=200135
+export bcb4_pd=2013-11-22
+export lps4_sn=200110
+export lps4_pd=2013-11-22
+export dpa4_sn=200116
+export dpa4_pd=2013-11-22
+
+export bscu1_pi=01.00
+export bscu1_sn=200073
+export bscu1_pd=2013-11-22
+export bscu1_ti=00.00
+export sn_mb1=200044
+export pd_mb1=2013-11-22
+export sn_gnss1=200063
+export pd_gnss1=2013-11-22
+export sn_mcb1=200043
+export pd_mcb1=2013-11-22
+
+export bscu2_pi=01.00
+export bscu2_sn=200044
+export bscu2_pd=2013-11-22
+export bscu2_ti=00.00
+export sn_mb2=200034
+export pd_mb2=2013-11-22
+export sn_gnss2=200051
+export pd_gnss2=2013-11-22
+export sn_mcb2=200057
+export pd_mcb2=2013-11-22
+
+export fanu_pi=01.00
+export fanu_sn=200031
+export fanu_pd=2013-11-22
+export fanu_ti=00.00
+
+export abu_pi=01.00
+export abu_sn=200044
+export abu_pd=2013-11-22
+export abu_ti=00.00
+export sn_alboard=200033
+export pd_alboard=2013-11-22
+
+
+./scripts/peru/run_genascii_each_bs
+

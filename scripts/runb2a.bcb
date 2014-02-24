@@ -1,0 +1,10 @@
+platform=Native
+version=debug
+LD_LIBRARY_PATH=build/$platform/$version
+#inf=ref/bcb_eeprom.bin
+inf=bcb.bin
+outf=bcb.ascii
+
+build/$platform/$version/bin2ascii $inf ref/xtype.ini $outf
+
+#xxd ref/eeprom_in.bin > my

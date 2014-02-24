@@ -1,0 +1,114 @@
+#EEPROM ASCII FILE Rohde & Schwarz
+
+
+# Beginn des Identifikationsblockes
+
+ID:                 IDENT_2
+ALIGNMENT:          32
+EEPROMSIZE:         8192
+PARTNUMBER:         5502.0104.04
+HWCODE:             1
+PRODUCTINDEX:       <PI>
+SN:                 <SN>/002
+PRODUCTDATE:        <PD>
+READCODE:           0
+TESTINSTRUCTION:    <TI>
+NAME:               TETRA_CHU
+
+
+# Beginn eines Blockes mit BG-spezifischen Daten
+# Beschreibung des USER-Blockes: USERBLK_ETH_ADR
+# MAC address of the first Ethernet Interface
+ID:                 USER_18030
+FORMAT:             UINT8
+100
+105
+188
+20
+<0>
+<1>
+FORMAT:             STRING
+"ETH_0"
+
+# Beschreibung des USER-Blockes: USERBLK_ETH_ADR
+# MAC address of the second Ethernet Interface
+ID:                 USER_18030
+FORMAT:             UINT8
+100
+105
+188
+21
+<0>
+<1>
+FORMAT:             STRING
+"ETH_1"
+
+
+# Beginn des Modifikationsblockes
+
+ID:                 MODIFICATION_100
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+
+
+# Beginn des Statistikblockes
+
+ID:                 STATISTICS_300
+OPHOURS:            0/0 
+
+
+# USER-Datenblock BCB
+# This block represents the item, because it has no special eeprom
+# This block will be added after CHU assembly and test
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0204.02"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"<SN1>/002"         # SN
+"<PD1>"             # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"00.01"             # TESTINSTRUCTION
+"BCB"               # NAME
+
+# USER-Datenblock LPS
+# This block represents the item, because it has no special eeprom
+# This block will be added after CHU assembly and test
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0304.02"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"<SN2>/002"         # SN
+"<PD2>"             # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"00.01"             # TESTINSTRUCTION
+"LPS_BOARD"         # NAME
+
+# USER-Datenblock DPA
+# This block represents the item, because it has no special eeprom
+# This block will be added after CHU assembly and test
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0504.04"      # PARTNUMBER
+"04.00"             # PRODUCTINDEX
+"<SN3>/002"         # SN
+"<PD3>"             # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"00.01"             # TESTINSTRUCTION
+"DPA_BOARD"         # NAME
+
+# Abschluss des Datensatzes
+ID:                 END

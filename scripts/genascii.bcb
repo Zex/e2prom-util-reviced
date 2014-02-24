@@ -1,0 +1,9 @@
+platform=Native
+version=debug
+LD_LIBRARY_PATH=build/$platform/$version
+inf=ref/templates/bcb_eeprom.txt
+outf=bcb.bin
+
+#gdb --args
+build/$platform/$version/temp2bin $inf 01.16 100001/002 2013-09-29 01.01 100001/002 2013-09-29 100001/002 2013-09-29 100001/002 2013-09-29
+

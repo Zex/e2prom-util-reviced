@@ -1,0 +1,41 @@
+#EEPROM ASCII FILE Rohde & Schwarz
+
+
+# Beginn des Identifikationsblockes
+
+ID:                 IDENT_2
+ALIGNMENT:          32
+EEPROMSIZE:         8192
+PARTNUMBER:         5502.0940.06
+HWCODE:             1
+PRODUCTINDEX:       01.00
+SN:                 100001/000
+PRODUCTDATE:        2013-10-25
+READCODE:           0
+TESTINSTRUCTION:    01.01
+NAME:               ATC_UNIT
+
+
+# Beginn des Modifikationsblockes
+
+ID:                 MODIFICATION_100
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+
+
+# Beginn des Statistikblockes
+
+ID:                 STATISTICS_300
+OPHOURS:            0/0 
+
+
+# Abschluss des Datensatzes
+ID:                 END

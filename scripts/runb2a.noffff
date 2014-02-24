@@ -1,0 +1,10 @@
+platform=Native
+version=debug
+LD_LIBRARY_PATH=build/$platform/$version
+
+entry=examples/noffff
+inf=$entry.bin
+outf=$entry.ascii
+
+build/$platform/$version/bin2ascii $inf ref/xtype.ini $outf
+

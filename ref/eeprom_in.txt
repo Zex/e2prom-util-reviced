@@ -1,0 +1,135 @@
+#EEPROM ASCII FILE Rohde & Schwarz
+#zurueckgewonnene Daten
+
+
+# Beginn des Identifikationsblockes
+
+ID:                 IDENT_2
+ALIGNMENT:          32
+EEPROMSIZE:         8192 
+PARTNUMBER:         1122.9737.09
+HWCODE:             0
+PRODUCTINDEX:       02.33
+SN:                 101163/009
+PRODUCTDATE:        2011-03-28
+READCODE:           0
+TESTINSTRUCTION:    05.04
+NAME:               PowerQuicc II
+# Checksumme korrekt
+
+
+
+# Beginn eines Blockes mit BG-spezifischen Daten
+# Beschreibung des USER-Blockes: USERBLK_ETH_ADR
+
+ID:                 USER_18030
+FORMAT:             UINT8
+170
+57
+27
+184
+144
+0
+# Checksumme korrekt
+
+
+# Beginn des Identifikationsblockes
+#
+#ID:                 IDENT_2
+#ALIGNMENT:          32
+#EEPROMSIZE:         8192
+#PARTNUMBER:         5502.0604.02
+#HWCODE:             1
+#PRODUCTINDEX:       01.00
+#SN:                 100001/000
+#PRODUCTDATE:        2013-09-29
+#READCODE:           0
+#TESTINSTRUCTION:    01.01
+#NAME:               FAN UNIT
+
+# Beginn des Modifikationsblockes
+
+ID:                 MODIFICATION_100
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+# Checksumme korrekt
+
+
+
+# Beginn des Statistikblockes
+
+ID:                 STATISTICS_300
+OPHOURS:            0/0 
+# Checksumme korrekt
+
+
+
+# Beginn eines Blockes mit BG-spezifischen Daten
+# Beschreibung des USER-Blockes: USERBLK_MSU
+
+ID:                 USER_18500
+FORMAT:             UINT32
+8192
+55003529
+FORMAT:             UINT8
+2
+2
+FORMAT:             UINT16
+211
+FORMAT:             UINT32
+101481002
+FORMAT:             UINT16
+16226
+0
+0
+FORMAT:             STRING
+"MSU-550      "
+# Checksumme korrekt
+
+
+
+# Beginn eines Blockes mit BG-spezifischen Daten
+# Beschreibung des USER-Blockes: USERBLK_TOB
+
+ID:                 USER_18501
+FORMAT:             UINT32
+8192
+55002997
+FORMAT:             UINT8
+45
+2
+FORMAT:             UINT16
+101
+FORMAT:             UINT32
+101471042
+FORMAT:             UINT16
+16226
+0
+507
+FORMAT:             STRING
+"TIB-500      "
+# Checksumme korrekt
+
+
+
+# Beginn eines Blockes mit BG-spezifischen Daten
+# Beschreibung des USER-Blockes: USERBLK_TOBCAL1
+ID:                 USER_18502
+FORMAT:             UINT32
+8388608
+486000000
+486000000
+# Checksumme korrekt
+
+
+
+# Abschluss des Datensatzes
+ID:                 END

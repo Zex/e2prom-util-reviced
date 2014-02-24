@@ -1,0 +1,10 @@
+platform=Native
+version=debug
+export LD_LIBRARY_PATH=build/$platform/$version
+inf=ref/dib-r5_eeprom.bin
+
+#build/$platform/$version/examples/try 
+build/$platform/$version/examples/dsw_iface
+#build/$platform/$version/examples/use_typlate
+
+#xxd ref/eeprom_in.bin > my

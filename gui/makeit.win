@@ -1,0 +1,13 @@
+
+proj_name=e2prom-util
+#QMAKE=qmake-qt4
+
+QMAKE=mingw32-qmake-qt4
+QMAKESPEC=win32-g++
+#/usr/lib64/qt4/mkspecs/win32-g++
+
+#$QMAKE -project -o $proj_name.pro && 
+$QMAKE $proj_name.pro.win && make 
+mingw-strip release/*exe
+
+#tar cfj e2prom-util.tar.bz2 release/*exe ../ref/templates ../tools/*exe

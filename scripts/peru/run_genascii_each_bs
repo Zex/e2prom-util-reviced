@@ -1,0 +1,126 @@
+echo "-------------------bscu1--in--$bs--------------------------"
+destdir=$dest_top_dir/pnp1/$bs/rack_1/dib_r5_bsc_shelf_1/bscu_1/aeo200-x86_1/persist
+if [ ! -d $destdir ] ;then mkdir -p $destdir ;fi
+
+$temp_to_bin $fanu_temp $fanu_pi $fanu_sn/000 $fanu_pd $fanu_ti
+$temp_to_bin $abu_temp $abu_pi $abu_sn/000 $abu_pd $abu_ti $sn_alboard/000 $pd_alboard
+$temp_to_bin $bscu_temp $bscu1_pi $bscu1_sn/002 $bscu1_pd $bscu1_ti $sn_mb1/002 $pd_mb1 $sn_gnss1/002 $pd_gnss1 $sn_mcb1 $pd_mcb1
+
+$temp_to_bin $dibr5_temp $dibr5_pi $dibr5_sn/002 $dibr5_pd $dibr5_ti \
+$bscu1_sn/002 $bscu1_pd $bscu2_sn/002 $bscu2_pd $chu1_sn/002 $chu1_pd $chu2_sn/002 \
+$chu2_pd $chu3_sn/002 $chu3_pd $chu4_sn/002 $chu4_pd $fanu_sn/000 $fanu_pd $abu_sn/000 $abu_pd
+
+for f in `find $output_dir -name "*.bin"` ;do
+$bin_to_ascii $f $xtype_file
+done
+
+mv $output_dir/*bin $destdir
+mv $output_dir/*.ascii $destdir
+
+pushd $destdir
+for f in `ls *.ascii` ; do
+mv $f `echo $f|cut -d\. -f1`.txt
+done
+popd
+echo "-------------------bscu2--in--$bs--------------------------"
+destdir=$dest_top_dir/pnp1/$bs/rack_1/dib_r5_bsc_shelf_1/bscu_2/aeo200-x86_1/persist
+if [ ! -d $destdir ] ;then mkdir -p $destdir ;fi
+
+$temp_to_bin $fanu_temp $fanu_pi $fanu_sn/000 $fanu_pd $fanu_ti
+$temp_to_bin $abu_temp $abu_pi $abu_sn/000 $abu_pd $abu_ti $sn_alboard/000 $pd_alboard
+$temp_to_bin $bscu_temp $bscu1_pi $bscu1_sn/002 $bscu1_pd $bscu1_ti $sn_mb2 $pd_mb2 $sn_gnss2/002 $pd_gnss2 $sn_mcb2/002 $pd_mcb2
+
+$temp_to_bin $dibr5_temp $dibr5_pi $dibr5_sn/002 $dibr5_pd $dibr5_ti $bscu1_sn/002 \
+$bscu1_pd $bscu2_sn/002 $bscu2_pd $chu1_sn/002 $chu1_pd $chu2_sn/002 $chu2_pd \
+$chu3_sn/002 $chu3_pd $chu4_sn/002 $chu4_pd $fanu_sn/000 $fanu_pd $abu_sn/000 $abu_pd
+
+for f in `find $output_dir -name "*.bin"` ;do
+$bin_to_ascii $f $xtype_file
+done
+
+mv $output_dir/*bin $destdir
+mv $output_dir/*.ascii $destdir
+
+pushd $destdir
+for f in `ls *.ascii` ; do
+mv $f `echo $f|cut -d\. -f1`.txt
+done
+popd
+echo "-------------------chu1--in--$bs--------------------------"
+destdir=$dest_top_dir/pnp1/$bs/rack_1/dib_r5_bsc_shelf_1/chu_1/aeo200-armhf_1/persist
+if [ ! -d $destdir ] ;then mkdir -p $destdir ;fi
+
+$temp_to_bin $bcb_temp $chu1_pi $chu1_sn/002 $chu1_pd $chu1_ti \
+	$bcb1_sn/002 $bcb1_pd $lps1_sn/002 $lps1_pd $dpa1_sn/002 $dpa1_pd 
+
+for f in `find $output_dir -name "*.bin"` ;do
+$bin_to_ascii $f $xtype_file
+done
+
+mv $output_dir/*bin $destdir
+mv $output_dir/*.ascii $destdir
+
+pushd $destdir
+for f in `ls *.ascii` ; do
+mv $f `echo $f|cut -d\. -f1`.txt
+done
+popd
+echo "-------------------chu2--in--$bs--------------------------"
+destdir=$dest_top_dir/pnp1/$bs/rack_1/dib_r5_bsc_shelf_1/chu_2/aeo200-armhf_1/persist
+if [ ! -d $destdir ] ;then mkdir -p $destdir ;fi
+
+$temp_to_bin $bcb_temp $chu2_pi $chu2_sn/002 $chu2_pd $chu2_ti \
+	$bcb2_sn/002 $bcb2_pd $lps2_sn/002 $lps2_pd $dpa2_sn/002 $dpa2_pd 
+
+for f in `find $output_dir -name "*.bin"` ;do
+$bin_to_ascii $f $xtype_file
+done
+
+mv $output_dir/*bin $destdir
+mv $output_dir/*.ascii $destdir
+
+pushd $destdir
+for f in `ls *.ascii` ; do
+mv $f `echo $f|cut -d\. -f1`.txt
+done
+popd
+echo "-------------------chu3--in--$bs--------------------------"
+destdir=$dest_top_dir/pnp1/$bs/rack_1/dib_r5_bsc_shelf_1/chu_3/aeo200-armhf_1/persist
+if [ ! -d $destdir ] ;then mkdir -p $destdir ;fi
+
+$temp_to_bin $bcb_temp $chu3_pi $chu3_sn/002 $chu3_pd $chu3_ti \
+	$bcb3_sn/002 $bcb3_pd $lps3_sn/002 $lps3_pd $dpa3_sn/002 $dpa3_pd 
+
+for f in `find $output_dir -name "*.bin"` ;do
+$bin_to_ascii $f $xtype_file
+done
+
+mv $output_dir/*bin $destdir
+mv $output_dir/*.ascii $destdir
+
+pushd $destdir
+for f in `ls *.ascii` ; do
+mv $f `echo $f|cut -d\. -f1`.txt
+done
+popd
+echo "-------------------chu4--in--$bs--------------------------"
+destdir=$dest_top_dir/pnp1/$bs/rack_1/dib_r5_bsc_shelf_1/chu_4/aeo200-armhf_1/persist
+if [ ! -d $destdir ] ;then mkdir -p $destdir ;fi
+
+$temp_to_bin $bcb_temp $chu4_pi $chu4_sn/002 $chu4_pd $chu4_ti \
+	$bcb4_sn/002 $bcb4_pd $lps4_sn/002 $lps4_pd $dpa4_sn/002 $dpa4_pd 
+
+for f in `find $output_dir -name "*.bin"` ;do
+$bin_to_ascii $f $xtype_file
+done
+
+mv $output_dir/*bin $destdir
+mv $output_dir/*.ascii $destdir
+
+pushd $destdir
+for f in `ls *.ascii` ; do
+mv $f `echo $f|cut -d\. -f1`.txt
+done
+popd
+
+

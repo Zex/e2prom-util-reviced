@@ -1,0 +1,9 @@
+platform=Native
+version=debug
+LD_LIBRARY_PATH=build/$platform/$version
+inf=abu.bin
+outf=abu.ascii
+
+build/$platform/$version/bin2ascii $inf ref/xtype.ini $outf
+
+#xxd ref/eeprom_in.bin > my

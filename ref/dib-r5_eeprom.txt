@@ -1,0 +1,153 @@
+#EEPROM ASCII FILE Rohde & Schwarz
+
+
+# Beginn des Identifikationsblockes
+
+ID:                 IDENT_2
+ALIGNMENT:          32
+EEPROMSIZE:         8192
+PARTNUMBER:         5503.1110.06
+HWCODE:             1
+PRODUCTINDEX:       01.00
+SN:                 100005/002
+PRODUCTDATE:        2013-09-29
+READCODE:           0
+TESTINSTRUCTION:    01.01
+NAME:               DIB-R5
+
+
+# Beginn des Modifikationsblockes
+
+ID:                 MODIFICATION_100
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+
+
+# Beginn des Statistikblockes
+
+ID:                 STATISTICS_300
+OPHOURS:            0/0 
+
+
+# USER-Datenblock BSCU1
+# This block is the copy of the unit eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0704.02"      # PARTNUMBER
+"02.00"             # PRODUCTINDEX
+"200011/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"BSCU_1"            # NAME
+
+# USER-Datenblock BSCU2
+# This block is the copy of the unit eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0704.02"      # PARTNUMBER
+"02.00"             # PRODUCTINDEX
+"200012/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # PRODUCTDATE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"BSCU_2"             # NAME
+
+# USER-Datenblock CHU1
+# This block is the copy of the unit eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0104.13"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"200001/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"TETRA_CHU_1"       # NAME
+
+# USER-Datenblock CHU2
+# This block is the copy of the unit eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0104.13"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"200002/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"TETRA_CHU_2"       # NAME
+
+# USER-Datenblock CHU3
+# This block is the copy of the unit eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0104.13"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"200003/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"TETRA_CHU_3"       # NAME
+
+# USER-Datenblock CHU4
+# This block is the copy of the unit eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0104.13"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"200004/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"TETRA_CHU_4"       # NAME
+
+# USER-Datenblock FANU
+# This block is the copy of the unit eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0604.02"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"100001/000"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"FAN_UNIT"          # NAME
+
+# USER-Datenblock ABU
+# This block is the copy of the unit eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0640.02"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"100001/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"ALARM_BOX"         # NAME
+
+# Abschluss des Datensatzes
+ID:                 END

@@ -1,0 +1,8 @@
+platform=Native
+version=debug
+LD_LIBRARY_PATH=build/$platform/$version
+inf=ref/xtype.ini
+
+build/$platform/$version/update-xtype $inf 
+
+#xxd ref/eeprom_in.bin > my

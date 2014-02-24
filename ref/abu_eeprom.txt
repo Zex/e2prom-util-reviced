@@ -1,0 +1,54 @@
+#EEPROM ASCII FILE Rohde & Schwarz
+
+
+# Beginn des Identifikationsblockes
+
+ID:                 IDENT_2
+ALIGNMENT:          32
+EEPROMSIZE:         8192
+PARTNUMBER:         5502.5502.02
+HWCODE:             1
+PRODUCTINDEX:       01.00
+SN:                 100001/000
+PRODUCTDATE:        2013-09-29
+READCODE:           0
+TESTINSTRUCTION:    01.01
+NAME:               ALARM_BOARD
+
+
+# Beginn des Modifikationsblockes
+
+ID:                 MODIFICATION_100
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+
+
+# Beginn des Statistikblockes
+
+ID:                 STATISTICS_300
+OPHOURS:            0/0 
+
+# USER-Datenblock ABU
+# This block represents the item, because it has no special eeprom
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0640.02"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"100001/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"ALARM_BOX"         # NAME
+
+# Abschluss des Datensatzes
+ID:                 END

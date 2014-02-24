@@ -1,0 +1,78 @@
+TYPE:18000, 1,  4, UINT16,    1, STRING,    1,COUNT16,    1,  INT16,UNLTD,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,  NONE,     0,   NONE,    0,   NONE,    0
+USERBLK_TEST_CONDITIONS
+TYPE:18001, 1,  5, UINT16,    3,  INT16,    2, UINT16,    2,COUNT16,    1,  UINT8,UNLTD,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,  NONE,     0,   NONE,    0,   NONE,    0
+USERBLK_FRONTEND1_VCO_DATA
+TYPE:18002, 1,  1,  INT16,    6,   NONE,    0,   NONE,    0,  NONE,     0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,  NONE,     0,   NONE,    0,   NONE,    0
+USERBLK_DAC_SETUP
+TYPE:18005, 1,  3, UINT16,    1,  INT16,    3, UINT32,    1,  NONE,     0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,  NONE,     0,   NONE,    0,   NONE,    0
+USERBLK_FRONTEND2_IFEXT_GAIN
+TYPE:18006, 1,  3, UINT16,    1,  INT16,    3, UINT32,    1,  NONE,     0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,  NONE,     0,   NONE,    0,   NONE,    0
+USERBLK_FRONTEND2_GAIN
+TYPE:18007, 1,  5, UINT32,    1,  INT32,    1, UINT32,    2,COUNT16,    1,   INT8,UNLTD,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_FILTER_GAIN
+TYPE:18008, 1,  2,  INT16,    1, UINT16,    1,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_FRONTEND2_REF_VALUE
+TYPE:18009, 1,  3,  INT16,    4,COUNT16,    1,  INT16,UNLTD,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_OVR_DETECTOR
+TYPE:18010, 1,  1,  INT16,    4,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_TEST_CONVERTER
+TYPE:18011, 1,  4, UINT16,    1,  INT16,    2,COUNT16,    1, UINT16,UNLTD,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_GAINCONTROL
+TYPE:18012, 1,  5, UINT32,    2, UINT16,    1,  INT16,    5,COUNT16,    1,   INT8,UNLTD,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_IF_PREFILTER
+TYPE:18013, 1,  5, UINT32,    2, UINT16,    1,  INT16,    5,COUNT16,    1,   INT8,UNLTD,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_IF_PREFILTER_CAL
+TYPE:18014, 1,  3, UINT16,    2,COUNT16,    1, UINT16,UNLTD,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_SYNTH_CTRL_TABLE
+TYPE:18016, 1,  5, UINT16,    1,  INT16,    3, UINT32,    2,COUNT16,    1,   INT8,UNLTD,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_GAIN
+TYPE:18018, 1,  3, UINT32,    3,COUNT16,    1,  UINT8,UNLTD,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_TUNE
+TYPE:18030, 1,  1,  UINT8,    6,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_SUBCOMPONENTS
+TYPE:18031, 1,  3,  STRING,    4,   UINT16,    1,   STRING,    2,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_ETH_ADR
+TYPE:18048, 1,  3, UINT32,    1,  INT16,   3,  UINT16,    1,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_CAL_REF
+TYPE:18049, 1,  6, UINT16,    1,  INT16,    1,  INT32,    1, UINT32,    2,COUNT16,    1,  INT16,UNLTD
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_TESTSPECTRUM
+TYPE:18060, 1,  5, UINT16,    1,  INT16,    3, UINT32,    2,COUNT16,    1,   INT8,UNLTD,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_ATT
+TYPE:18061, 1,  5, UINT16,    1,  INT16,    3, UINT32,    2,COUNT16,    1,   INT8,UNLTD,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_HF_ANT
+TYPE:18070, 1,  3, UINT16,    1,  INT16,    3,  INT32,    1,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_FRONTEND2_HFIF_GAIN
+TYPE:18080, 1,  4, UINT16,    2,  UINT32,   2,COUNT16,    1,  INT16,UNLTD,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_ANT_FACTOR
+TYPE:18500, 1,  6, UINT32,    2,  UINT8,    2,UINT16,    1,  UINT32,    1,   UINT16,  3,   STRING,  1
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_MSU
+TYPE:18501, 1,  6, UINT32,    2,  UINT8,    2,UINT16,    1,  UINT32,    1,   UINT16,  3,   STRING,  1
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_TOB
+TYPE:18502, 1,  1, UINT32,    3,   NONE,   0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+	    0,  0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0,   NONE,    0
+USERBLK_TOBCAL1

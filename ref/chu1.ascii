@@ -1,0 +1,105 @@
+# Header block
+ID:                 IDENT_2
+ALIGNMENT:          32
+EEPROMSIZE:         8192
+PARTNUMBER:         5502.0204.02
+HWCODE:             1
+PRODUCTINDEX:       01.00
+SN:                 200115/000
+PRODUCTDATE:        2013-11-7
+READCODE:           0
+TESTINSTRUCTION:    01.00
+NAME:               BCB Board
+# Checksum correct
+
+
+# User block USERBLK_ETH_ADDR
+ID:                 USER_18030
+FORMAT:             UINT8
+100
+105
+188
+20
+1
+15
+FORMAT:             STRING
+""
+# Checksum correct
+
+
+# User block USERBLK_ETH_ADDR
+ID:                 USER_18030
+FORMAT:             UINT8
+100
+105
+188
+21
+1
+15
+FORMAT:             STRING
+""
+# Checksum correct
+
+
+# Modification block
+ID:                 MODIFICATION_100
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+# Checksum correct
+
+
+# Header block
+ID:                 IDENT_2
+ALIGNMENT:          32
+EEPROMSIZE:         0
+PARTNUMBER:         5502.0104.04
+HWCODE:             1
+PRODUCTINDEX:       01.00
+SN:                 200056/000
+PRODUCTDATE:        2013-11-7
+READCODE:           0
+TESTINSTRUCTION:    01.00
+NAME:               TETRA CHU
+# Checksum correct
+
+
+# Header block
+ID:                 IDENT_3
+ALIGNMENT:          32
+EEPROMSIZE:         0
+PARTNUMBER:         5502.0304.02
+HWCODE:             1
+PRODUCTINDEX:       01.00
+SN:                 200073/000
+PRODUCTDATE:        2013-11-7
+READCODE:           0
+TESTINSTRUCTION:    01.00
+NAME:               LPS Board
+# Checksum correct
+
+
+# Header block
+ID:                 IDENT_4
+ALIGNMENT:          32
+EEPROMSIZE:         0
+PARTNUMBER:         5502.0504.04
+HWCODE:             1
+PRODUCTINDEX:       04.00
+SN:                 200095/000
+PRODUCTDATE:        2013-11-7
+READCODE:           0
+TESTINSTRUCTION:    01.00
+NAME:               DPA Board
+# Checksum correct
+
+
+# End block
+ID:                 END

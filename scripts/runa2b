@@ -1,0 +1,7 @@
+platform=Native #AEOS_Intel
+version=debug
+LD_LIBRARY_PATH=build/$platform/$version
+
+build/$platform/$version/ascii2bin ref/eeprom_in.txt eeprom.bin
+
+#xxd ref/eeprom_in.bin > my

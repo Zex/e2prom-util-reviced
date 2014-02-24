@@ -1,0 +1,102 @@
+#EEPROM ASCII FILE Rohde & Schwarz
+
+
+# Beginn des Identifikationsblockes
+
+ID:                 IDENT_2
+ALIGNMENT:          32
+EEPROMSIZE:         8192
+PARTNUMBER:         5502.0710.02
+HWCODE:             1
+PRODUCTINDEX:       02.00
+SN:                 100005/002
+PRODUCTDATE:        2013-09-29
+READCODE:           0
+TESTINSTRUCTION:    01.01
+NAME:               BSC_MAINBOARD
+
+
+# Beginn eines Blockes mit BG-spezifischen Daten
+# Beschreibung des USER-Blockes: USERBLK_ETH_ADR
+# MAC address of the MPU Ethernet Interface
+# BSCU board the MPU mac address is : 64 69 BC 16 xx xx
+# Formating below is decimal SN is xxxx05
+ID:                 USER_18030
+FORMAT:             UINT8
+100
+105
+188
+22
+0
+5
+FORMAT:             STRING
+"ETH_1"
+
+# Beginn des Modifikationsblockes
+
+ID:                 MODIFICATION_100
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+SERVICECODE:        0
+
+
+# Beginn des Statistikblockes
+
+ID:                 STATISTICS_300
+OPHOURS:            0/0 
+
+
+# USER-Datenblock BSCU
+# This block represents the item, because it has no special eeprom
+# This block will be added after BSCU assembly and test
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0704.02"      # PARTNUMBER
+"02.00"             # PRODUCTINDEX
+"100011/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"BSCU"              # NAME
+
+# USER-Datenblock GNSS
+# This block represents the item, because it has no special eeprom
+# This block will be added after BSCU assembly and test
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0727.02"      # PARTNUMBER
+"02.00"             # PRODUCTINDEX
+"100001/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"GNSS_BOARD"        # NAME
+
+# USER-Datenblock MCB
+# This block represents the item, because it has no special eeprom
+# This block will be added after BSCU assembly and test
+ID:                 USER_18031
+FORMAT:             STRING
+"5502.0733.00"      # PARTNUMBER
+"01.00"             # PRODUCTINDEX
+"100001/002"        # SN
+"2013-09-29"        # PRODUCTDATE
+FORMAT:             UINT16
+0                   # READCODE
+FORMAT:             STRING
+"01.01"             # TESTINSTRUCTION
+"MCB_BOARD"         # NAME
+
+# Abschluss des Datensatzes
+ID:                 END

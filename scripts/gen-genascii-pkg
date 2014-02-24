@@ -1,0 +1,17 @@
+tar cfj gen-ascii-peru-linux.tar.bz2 \
+	build/Native/debug/libe2prom.so* \
+	build/Native/debug/bin2ascii \
+	build/Native/debug/ascii2bin \
+	build/Native/debug/temp2bin \
+	ref/templates \
+	scripts/run-genascii.peru \
+	scripts/peru
+tar cfj gen-ascii-peru-linux.tar.bz2 \
+	build/Native/debug/libe2prom.so* \
+	build/Native/debug/bin2ascii \
+	build/Native/debug/ascii2bin \
+	build/Native/debug/temp2bin \
+	ref/templates \
+	ref/xtype.ini \
+	scripts/run-genascii.peru \
+	scripts/peru

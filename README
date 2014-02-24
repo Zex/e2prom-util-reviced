@@ -1,0 +1,24 @@
+
+e2prom-util
+
+This is a demo of E2PROM encode/decode library.
+
+Run
+	make all
+
+to build ascii2bin, bin2ascii, update-xtype and
+temp2bin.
+
+ascii2bin/bin2ascii
+	Convert ASCII to binary and vise verse.
+
+update-xtype
+	Update xtype.hpp/cpp files for DSWs decode
+	eeprom binary.
+
+temp2bin
+	Generate eeprom ASCII files with specific 
+	product parameters from eeprom template.
+
+Author
+	Zex.Li <zex@hytera.com>
